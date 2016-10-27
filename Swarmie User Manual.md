@@ -50,7 +50,7 @@ Observe the robot for several minutes. If everything is working correctly, you s
 
 4. A very rapidly blinking, near-solid red light on the microcontroller underneath the Intel NUC
 
-You should also test the joystick control of your robot using either a Microsoft Xbox 360 Controller or the <kbd>i</kbd>, <kbd>j</kbd>, <kbd>k</kbd>, and <kbd>l<kbd> keys on your keyboard.
+You should also test the joystick control of your robot using either a Microsoft Xbox 360 Controller or the <kbd>i</kbd>, <kbd>j</kbd>, <kbd>k</kbd>, and <kbd>l</kbd> keys on your keyboard.
 
 When you are satisfied that the robot is operating correctly as per the specs above, you may shut it down by flipping the red switch down and holding the power button on the NUC for five seconds.
 
