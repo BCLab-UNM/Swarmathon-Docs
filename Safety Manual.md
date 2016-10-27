@@ -22,7 +22,7 @@
 - [Appendix B: Regulations for Shipping Lithium Batteries](#appendix-b-regulations-for-shipping-lithium-batteries)
 
 ## Safety and the NASA Swarmathon
-Instilling a culture of safety is a value that every individual in the NASA community must embrace as we pursue NASA’s mission and vision. NASA Swarmathon has adopted safety as a core value and has established the framework for safety leadership in all aspects of the program.
+Instilling a culture of safety is a value that every individual in the NASA community must embrace as we pursue NASA’s mission and vision. NASA Swarmathon has adopted safety as a core value and has established the framework for safety leadership in all aspects of the program. **Please refer to [Appendix A: Warnings for Using Batteries](https://github.com/BCLab-UNM/Swarmathon-Docs/blob/master/Safety%20Manual.md#appendix-a-warnings-for-using-batteries) for information on fire safety regarding Li-ion batteries, and refer to your college or university fire guidelines for safety information specific to your school**
 
 NASA believes that the teams that take the lead in developing safety programs and policies have a positive and lasting impact on each team member, mentor, their communities, and their present and future work places. NASA recognizes the teams that demonstrate safety throughout their programs and are truly committed to developing and nurturing a safety culture.
 
