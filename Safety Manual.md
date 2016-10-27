@@ -1,8 +1,8 @@
 # SAFETY MANUAL
 
-![Swarmathon Logo](http://swarmathon.cs.unm.edu/img/SwarmathonLogo.png)
+![Swarmathon Logo](https://github.com/BCLab-UNM/Swarmathon-Docs/blob/master/safetyManualImages/SwarmathonLogo.png)
 
-![KSC Swarmies](http://swarmathon.cs.unm.edu/img/swarmiesKSC.png)
+![KSC Swarmies](https://github.com/BCLab-UNM/Swarmathon-Docs/blob/master/safetyManualImages/swarmiesKSC.png)
 
 ## Table of Contents
 - [Safety and the NASA Swarmathon](#safety-and-the-nasa-swarmathon)
