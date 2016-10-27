@@ -131,7 +131,7 @@ Proper use and respect for electricity is paramount. The following are general g
 
 #### Charging Process
 -	Never charge batteries unattended.
--	Put battery in the fireproof container and charge in an isolated area, away from other flammable materials. Always have fire extinguisher for emergency use.
+-	Put battery in the fireproof container and charge in an isolated area, away from other flammable materials. Always have an **ABC fire extinguisher** for emergency use.
 -	Let battery cool down to ambient temperature before charging.
 -	Do not charge batteries packs in series. Charge each battery pack individually. Failure to do so may result in incorrect battery recognition and charging functions. Overcharging may occur and fire may be the result.
  
