@@ -14,15 +14,13 @@ Finally, if you've recently completed a fresh install of Ubuntu 14.04 (whether f
 
 ### 2. Hostname and Hosts File Configuration
 
-The hostname should be changed so that each robot will be uniquely identified on your LAN. To change your hostname:
-
-1. Open a **Terminal** window and enter ```sudo nano /etc/hostname```. Enter the password you set during the OS installation process when prompted.
+1. Your robot's hostname should be changed so that each robot will be uniquely identified on your LAN. To change your hostname, open a **Terminal** window and enter ```sudo nano /etc/hostname```. Enter the password you set during the OS installation process when prompted.
 
 2. This file should contain one line with the word "ubuntu". Delete "ubuntu" and replace it with your chosen hostname. Any hostname composed of alphanumeric characters will work; be sure to remember your hostname for later use. Use <kbd>Ctrl</kbd> + <kbd>x</kbd> to save your change and exit the editor.
 
 3. From the Bash prompt, enter ```sudo nano /etc/hosts```.
 
-4. The second line of the **hosts** file should read ```127.0.1.1   swarmie```. Delete "swarmie" and replace it with the hostname you chose in step 2.
+4. The second line of the **hosts** file should read ```127.0.1.1   ubuntu```. Delete "ubuntu" and replace it with the hostname you chose in step 2.
 
 5. At this point, you should also add to the **hosts** file the IP addresses and hostnames of any other machines on your network (including other robots) that you plan to run Swarmathon-ROS on. For example, you would add a machine named "alpha" with an IP address of "192.168.1.2" by inserting ```192.168.1.2   alpha``` at a new line in the **hosts** file.
 
