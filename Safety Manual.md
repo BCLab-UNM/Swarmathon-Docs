@@ -146,6 +146,7 @@ Proper use and respect for electricity is paramount. The following are general g
 -	Charge battery with good quality Lithium Polymer charger. A poor quality charger can be dangerous.
 -	Use caution to avoid puncture of the cell. Puncture of cells may cause a fire.
 -	Charge the battery every 2 months to keep it fresh if you don't use it.
+-	Dispose of damaged or failed batteries through a local lithium ion battery recycler following [these instructions](https://www.techwalla.com/articles/how-to-dispose-of-lithium-ion-batteries).
  
 #### Operating Temperature
 -	Charge: 32 to 113 degree F
