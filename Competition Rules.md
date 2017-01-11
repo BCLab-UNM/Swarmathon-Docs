@@ -1,4 +1,4 @@
-### NASA Swarmathon Competition Rules
+### 2016 NASA Swarmathon Competition Rules
 
 The goal of the NASA Swarmathon competition is to program a swarm of robots to search a square arena and find as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical.
 
@@ -10,21 +10,17 @@ The goal of the NASA Swarmathon competition is to program a swarm of robots to s
 
     - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 1 hour. The arena for the final round will be between 21 and 22 meters square.
 
-    - The team whose robots find the most resources during each round will move on to the subsequent round. In the case that multiple teams collect all of the resources, the team that collects them in the shortest time will move on.
+    - The top four teams whose robots found the most resources during the preliminary rounds will move on to the subsequent round. In the case that multiple teams collect all of the resources, the team that collects them in the shortest time will move on.
 
 - Resources
 
-    - Resources, represented by [AprilTag](https://april.eecs.umich.edu/wiki/index.php/AprilTags) fiducial markers, will be unique, such that each resource can only be collected once per competition period.
+    - Resources are represented by AprilCubes, foam cubes with [AprilTag](https://april.eecs.umich.edu/wiki/index.php/AprilTags) fiducial markers on all six sides. Note that all AprilTags on all sides are identical: every side is adhered with the [AprilTag from the 36h11 family with id=0](https://github.com/BCLab-UNM/Swarmathon-ROS/blob/master/simulation/models/at0/materials/textures/atag-0.png).
 
     - Resources will be randomly placed around the arena. Resources may be placed in a uniform distribution, such that the probability of encountering each resource is equal, or in a non-uniform distribution, in which some resources will be grouped together. The resource distribution will selected at random before each round, meaning that neither the exact locations of resources, nor the number of clusters of resources, will not be disclosed to teams in advance of the competition.
 
-    - "Finding a resource" is defined as identifying the resource in the arena with the robot’s camera, then returning to the 50 cm radius collection zone at the center of the arena to simulate a successful retrieval. In order to recieve credit for the collection, the robot must first publish an image of the resource on the topic `/robotName/targetPickUpImage`, then, upon arriving at the collection zone, publish an image of one of the unique AprilTags associated with the collection zone to the topic `/robotName/targetDropOffImage`.
+    - "Collecting a resource" is defined as delivering an AprilCube to the collection zone at the center of the arena. In order to recieve credit for the collection, the AprilCube must be either inside of the 1 x 1 meter collection zone, or touching the thick black line that designates the edge of the collection zone. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots, those resources will no longer count toward the total resources collected by a team during a given round.
 
-    - Resources will not be placed inside the 50 cm retrieval circle, nor will they be placed within 50 cm of the arena wall.
-
-    - Robots may detect multiple resources while searching, but each robot may only return one resource at a time to the 50 cm retrieval zone at the center of the arena.
-
-    - Teams will be provided with a compiled software library and a corresponding API call that must be made in order to count the number of tags dropped off individually at the collection zone. The same software will be used to score teams during the competition.
+    - Resources will not be placed inside the collection zone, nor will they be placed within 50 cm of the arena wall.
 
 - During the competition
 
