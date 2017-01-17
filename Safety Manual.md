@@ -131,7 +131,8 @@ Proper use and respect for electricity is paramount. The following are general g
 
 #### Charging Process
 -	Never charge batteries unattended.
--	Put battery in the fireproof container and charge in an isolated area, away from other flammable materials. Always have an **ABC fire extinguisher** for emergency use.
+-	Batteries are provided inside of a fire retardant, LiPo-Safe charging bag to mitigate the risk of injury or loss. Never remove a battery from its charging bag.
+-	Always have an **ABC fire extinguisher** for emergency use.
 -	Let battery cool down to ambient temperature before charging.
 -	Do not charge batteries packs in series. Charge each battery pack individually. Failure to do so may result in incorrect battery recognition and charging functions. Overcharging may occur and fire may be the result.
  
@@ -145,6 +146,7 @@ Proper use and respect for electricity is paramount. The following are general g
 -	Charge battery with good quality Lithium Polymer charger. A poor quality charger can be dangerous.
 -	Use caution to avoid puncture of the cell. Puncture of cells may cause a fire.
 -	Charge the battery every 2 months to keep it fresh if you don't use it.
+-	Dispose of damaged or failed batteries through a local lithium ion battery recycler following [these instructions](https://www.techwalla.com/articles/how-to-dispose-of-lithium-ion-batteries).
  
 #### Operating Temperature
 -	Charge: 32 to 113 degree F
