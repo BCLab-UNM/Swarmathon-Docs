@@ -4,13 +4,15 @@ The goal of the 2017 NASA Swarmathon competition is to program a swarm of robots
 
 - Tournament structure
 
-    - There will be two competition rounds: preliminaries and finals.
+    - There will be three competition rounds: preliminary, semi-final, and final:
 
-    - The preliminary round will require 3 robots to search an approximate 15 x 15 meter walled arena for a maximum of 256 resources over a period of 30 minutes. The exact number and spatial distribution of resources will not be revealed in advance of the competition.
+        - The preliminary rounds will require 3 robots to search an approximate 15 x 15 meter walled arena for a maximum of 256 resources over two periods of 30 minutes each. The top eight teams whose robots find and collect the most resources during the two preliminary rounds will move on to the semi-final round.
+    
+        - The semi-final round will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 30 minutes. The top four teams whose robots find and collect the most resources during the semi-final round will move on to the final round.
 
-    - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 1 hour. The exact number and spatial distribution of resources will not be revealed in advance of the competition.
-
-    - The top four teams whose robots find and collect the most resources during the preliminary rounds will move on to the subsequent round. In the case of a tie score, the team that collects the resources in the shortest time will be ranked higher.
+        - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 1 hour.
+        
+        Refer to the "Breaking a tie" subsection near the bottom of this document for rules in the case of a tie score during a given round. Note that the exact number and spatial distribution of resources in each round will not be revealed in advance of the competition.
 
 - Resources
 
@@ -18,7 +20,7 @@ The goal of the 2017 NASA Swarmathon competition is to program a swarm of robots
 
     - Resources will be randomly placed around the arena. Resources may be placed in a uniform distribution, such that the probability of encountering each resource is equal, or in a non-uniform distribution, in which some resources will be grouped together. The resource distribution will be selected at random before each round, meaning that neither the exact locations of resources, nor the number of clusters of resources, will not be disclosed to teams in advance of the competition.
 
-    - "Collecting a resource" is defined as delivering an AprilCube to the collection zone at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be either inside of the 1 x 1 meter square collection zone, or touching the thick black line that designates the edge of the 1 x 1 meter square collection zone. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
+    - "Collecting a resource" is defined as delivering an AprilCube to the [collection zone](https://github.com/BCLab-UNM/Swarmathon-ROS/blob/master/simulation/models/collection_disk/materials/textures/collection_disk.pdf) at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be either inside of the 1 x 1 meter square collection zone, or touching the thick black line that designates the edge of the 1 x 1 meter square collection zone. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
     
     - Scoring decisions of official competition judges are final.
 
@@ -45,6 +47,10 @@ The goal of the 2017 NASA Swarmathon competition is to program a swarm of robots
     - In the Physical Competition, robots that become stuck due to any fault of the arena, or robots that collide with one another and become stuck, will be separated and placed nearby their original locations by line judges. The line judge will decide whether the arena is at fault. No intervention will occur in the Virtual competition.
 
     - Each robot must operate at a safe speed in order to avoid damage from collisions with the walls and with other robots. The maximum allowable velocity for the physical robots is 1.0 m/s linear and 1.0 m/s angular; the maximum velocity for the simulated robots is 1.5 m/s linear and 8.0 cm/s angular (this cap includes the simulated scaling factor). At the discretion of Physical Competition judges, robots that repeatedly crash into walls or each other at high speeds will be removed from the arena for the remainder of the period.
+    
+- Breaking a tie
+
+    - In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the semi-final round, or for the winner at the end of any of the final rounds, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins.
 
 - Modifying the Swarmathon-ROS code base
 
