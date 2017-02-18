@@ -10,6 +10,8 @@ If your robot does not yet have an operating system (OS) installed on it, begin 
 
 If your robot is not yet running ROS Indigo and the Swarmathon-ROS base code, please follow the instructions in the [Swarmathon-ROS README](https://github.com/BCLab-UNM/Swarmathon-ROS/blob/master/README.md).
 
+If you have not yet uploaded the Swarmathon-Arduino base code to your microcontroller, please follow the instructions in the [Swarmathon-Arduino README](https://github.com/BCLab-UNM/Swarmathon-Arduino/blob/master/README.md).
+
 Finally, if you've recently completed a fresh install of Ubuntu 14.04 (whether following the instructions above or any other instructions), ensure that OpenSSH Server is installed by typing `sudo apt-get install openssh-server`.
 
 ### 2. Hostname and Hosts File Configuration
