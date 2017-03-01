@@ -52,8 +52,10 @@ The goal of the 2017 NASA Swarmathon competition is to program a swarm of robots
 
     - In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the semi-final round, or for the winner at the end of any of the final rounds, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins.
 
-- Modifying the Swarmathon-ROS code base
+- Modifying the Swarmathon-ROS code base<sup>*</sup>
 
-    - Teams participating in the Physical competition are encouraged to modify any parts of the Swarmathon-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
+    - Teams participating in the Physical competition are encouraged to modify any parts of the Swarmathon-ROS code base, including adding or deleting packages in the `/src` directory and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
     
-    - Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
+    - Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting packages in the `/src` directory, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
+
+    <sup>*</sup>Note that all file paths are relative to `~/rover_workspace`
