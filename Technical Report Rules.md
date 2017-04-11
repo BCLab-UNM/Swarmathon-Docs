@@ -2,9 +2,9 @@
 
 Both Physical and Virtual teams are required to submit a Technical Report electronically via GitHub as a PDF by March 28, 2017 by midnight EST. The paper should be named **Tech_Report_YourSchoolName_2017.pdf** and placed in a folder called **"reports"** in your Github repository.
 
-Judges will score papers based on the technical quality, novelty, significance, and clarity according to the rubric below. The judges' decision is final. The Physical team with the winning Technical Report will receive a team plaque, individual certificates, and a $200 team scholarship. Second and third place winners will receive certificates.
+Judges will score papers based on the technical quality, novelty, significance, and clarity according to the rubric below. The judges' decision is final. The Physical team with the winning Technical Report will receive a team plaque and a $200 team scholarship. Second and third place winners will receive certificates.
 
-Similarly, the Virtual team with the winning Technical Report will receive a team plaque, individual certificates, and a $200 team scholarship. Second and third place winners will receive certificates.
+Similarly, the Virtual team with the winning Technical Report will receive a team plaque and a $200 team scholarship. Second and third place winners will receive certificates.
 
 The report should follow the format of a robotics conference paper. For examples, see the  [Word](http://www.roboticsconference.org/docs/paper-template-word.zip) or [LaTeX](http://www.roboticsconference.org/docs/paper-template-latex.tar.gz) paper templates, as well as the peer-reviewed, published [proceedings](http://www.roboticsproceedings.org/rss08/index.html), for the Robotics: Science and Systems (RSS) conference.
 
