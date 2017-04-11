@@ -4,9 +4,9 @@ Both Physical and Virtual teams are required to submit an Outreach Report electr
 
 Judges will score papers based on the quality, novelty and significance of the described outreach activity and plans laid for future outreach activities, according to the rubric below. The judges' decision is final.
 
-The Physical team with the winning Outreach Report will receive a team plaque, individual certificates, and a $200 team scholarship. Second and third place winners will receive certificates.
+The Physical team with the winning Outreach Report will receive a team plaque and a $200 team scholarship. Second and third place winners will receive certificates.
 
-Similarly, the Virtual team with the winning Outreach Report will receive a team plaque, individual certificates, and a $200 team scholarship. Second and third place winners will receive certificates.
+Similarly, the Virtual team with the winning Outreach Report will receive a team plaque and a $200 team scholarship. Second and third place winners will receive certificates.
 
 
 ### Outreach Report Rubric
