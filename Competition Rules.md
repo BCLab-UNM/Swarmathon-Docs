@@ -1,6 +1,8 @@
-### 2017 NASA Swarmathon Competition Rules
+### Swarmathon III (2018) Competition Rules
 
-The goal of the 2017 NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical.
+The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical. 
+
+New in Swarmathon III is the addition of obstacles. Teams will need to program their robots to navigate around obstructions in the arena. The surface of Mars is varied, and there are a variety of naturally occurring obstacles that robots need to be able to circumvent. 
 
 - Tournament structure
 
