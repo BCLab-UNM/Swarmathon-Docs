@@ -44,7 +44,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
     
     - Each robot should be prepared to receive and react to a start signal in the form of the published value ```2``` on the ```/robotName/mode``` topic, as well as a stop signal in the form of the published value ```1``` on the same topic (identical to the autonomous/manual radio button functionality in the GUI).
     
-    - Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the Swarmathon-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code.
+    - Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the SwarmBaseCode-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code.
 
     - In the Physical Competition, robots that become stuck due to any fault of the arena, or robots that collide with one another and become stuck, will be separated and placed nearby their original locations by line judges. The line judge will decide whether the arena is at fault. No intervention will occur in the Virtual competition.
 
@@ -54,8 +54,8 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
     - In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the semi-final round, or for the winner at the end of any of the final rounds, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins.
 
-- Modifying the Swarmathon-ROS code base
+- Modifying the SwarmBaseCode-ROS code base
 
-    - Teams participating in the Physical competition are encouraged to modify any parts of the Swarmathon-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
+    - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
     
     - Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
