@@ -4,7 +4,7 @@ If you have not yet built your robots, please consult our [Assembly Manual](http
 
 ### 1. Initial Setup
 
-Download the [Swarmathon III Swarmie Disk Image](http://http://cs.unm.edu/~mfricke/SwarmathonIII/SwarmathonIII_Swarmie_2017-9-6.iso). The image file is 16 GB. Burn the disk image to USB drive. There are a variety of tools for burning .iso images to USB drives. Windows 10, Linux, and OS X have built in utilities for burning disk images to USB drives.
+Download the [Swarmathon III Swarmie Disk Image](http://http://cs.unm.edu/~mfricke/SwarmathonIII/SwarmathonIII_Swarmie_2017-9-6.iso). The image file is 16 GB. Burn the disk image to a USB drive. There are a variety of tools for burning .iso images to USB drives. Windows 10, Linux, and OS X have built in utilities for burning disk images to USB drives.
 
 Connect the Intel NUC onboard your robot to a keyboard (USB), mouse (USB), and monitor (HDMI). Insert the USB drive with the Swarmie disk image burned to it. You will need to disconnect some of the USB components to connect the mouse and keyboard. Ensure that the robot motors are turned off (the red switch at the back is down), then turn the NUC on.
 
