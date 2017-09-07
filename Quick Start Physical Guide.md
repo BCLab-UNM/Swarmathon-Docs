@@ -85,3 +85,21 @@ Operate robots at a safe speed. There are no funds available to repair robots th
 Robot wheels may become loose and disengage after repeated testing. Although the robots are capable of driving on only three wheels, you should reattach any loose wheel(s) following the wheel installation instructions in the Swarmie Build Guide.
 
 If you encounter any issues with your robots, please contact the Swarmathon team at [Info@NasaSwarmathon.com](Info@NasaSwarmathon.com), or post questions in the Hardware section of the [NASA Swarmathon Q&A Forum](http://nasaswarmathon.com/qa-forum/), and we’ll help you to diagnose and repair the problem.
+
+### 5. Setting up your teams repoitory.
+
+You should already have a repository under the BCLab organisation on GitHub. Please let us know right away if you do not have access or cand find your repository.
+
+A convenient way customise the SwarmBaseCode-ROS repository which still being able to receive important bug fixes is to setup the SwarmBaseCode-ROS repository as a remote. The commands are as follows:
+
+While in your repository run:
+
+''git remote add SwarmBaseCode https://github.com/BCLab-UNM/SwarmBaseCode-ROS.git''
+
+Your repository is now able to fetch code from the SwarmBaseCode-ROS repository as well as from your team's repository.
+
+To get bug fixes and changes in the base code use the following command:
+
+''git pull SwarmBaseCode''
+
+There have been a lot of changes in the code since Swarmathon II. If you try to pull the Swarmathon III code into a branch based on the Swarmathon II code you will have a lot of merge conflicts. You may find it easier to create a fresh branch for Swarmathon III and reimplement the functionality from previous years there.
