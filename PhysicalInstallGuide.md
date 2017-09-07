@@ -1,4 +1,4 @@
-## Quick Start Guide for Physical Robots
+## Guide for Setting up Physical Robots
 
 If you have not yet built your robots, please consult our [Assembly Manual](https://github.com/BCLab-UNM/Swarmathon-Robot/tree/master/AssemblyManual) for instructions on doing so.
 
