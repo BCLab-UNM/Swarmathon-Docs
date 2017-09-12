@@ -22,8 +22,6 @@ Remove the USB installation drive and power on your rover. The Swarmie robot wil
 
 The installation from USB will not modify the code running on the Swarmie's arduino board. If you recieved a new robot this year the arduino code has been preinstalled. You will also find a copy of the Swarmathon-Arduino git repository in the home directory of the swarmie user.
 
-If at some point you need to reupload the Swarmathon-Arduino base code to your microcontroller (after calibrating your rover for example), please follow the instructions in the [Swarmathon-Arduino README](https://github.com/BCLab-UNM/Swarmathon-Arduino/blob/master/README.md).
-
 If you need to restore your swarmie to its initial software configuration in the future, you can do so with the USB install drive you created. Doing so will erase any modifications you have made on the Swarmie.
 
 ### 2. Hostname and Hosts File Configuration
@@ -74,7 +72,11 @@ Your robot is now ready for you to use! Please repeat this process for all 3 of 
 
 To work well your Swarmie' IMU sensor must be calibrated for your particular location. A [video guide](https://youtu.be/pL4x7UcuZ3A) to calibrating your rover is available. (Note that if you setup your rover using the USB image install you will not need to download the software packages mentioned in that video. Dialup group membership will have been preconfigured as well.)
 
-### 5. Swarmie Maintenance
+### 5. Re-Uploading Swarmathon-Arduino Code
+
+If at some point you need to reupload the Swarmathon-Arduino base code to your microcontroller (after calibrating your rover for example), please follow the instructions in the [Swarmathon-Arduino README](https://github.com/BCLab-UNM/Swarmathon-Arduino/blob/master/README.md).
+
+### 6. Swarmie Maintenance
 
 To charge your robots, plug each of your three smart chargers into standard wall outlets, then connect each of your three robots to the smart chargers via the barrel jack at the rear of the robots (to the right of the red power switch). You should see a red light on the smart charger, which indicates a solid connection. Charge the robot until the light on the smart charger turns green, which indicates that the battery is fully charged, then disconnect the charger. Note that fully charging the battery can take up to 12 hours, and the battery manufacturer stipulates that batteries should be attended during charge to mitigate fire risk (see the Safety Guide for more information about battery charging).
 
@@ -86,7 +88,7 @@ Robot wheels may become loose and disengage after repeated testing. Although the
 
 If you encounter any issues with your robots, please contact the Swarmathon team at [Info@NasaSwarmathon.com](Info@NasaSwarmathon.com), or post questions in the Hardware section of the [NASA Swarmathon Q&A Forum](http://nasaswarmathon.com/qa-forum/), and we’ll help you to diagnose and repair the problem.
 
-### 5. Setting up your teams repoitory.
+### 7. Setting up your teams repoitory.
 
 You should already have a repository under the BCLab organisation on GitHub. Please let us know right away if you do not have access or cand find your repository.
 
@@ -108,7 +110,7 @@ git pull SwarmBaseCode
 
 There have been a lot of changes in the code since Swarmathon II. If you try to pull the Swarmathon III code into a branch based on the Swarmathon II code you will have a lot of merge conflicts. You may find it easier to create a fresh branch for Swarmathon III and reimplement the functionality from previous years there.
 
-### 6. Changing the default password for your Swarmie account.
+### 8. Changing the default password for your Swarmie account.
 
 As soon as possible change the password for the Swarmie account (that's the one that logged in automatically on boot). The default password is KSC-2018.
 
