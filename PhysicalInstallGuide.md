@@ -95,7 +95,7 @@ A convenient way customise the SwarmBaseCode-ROS repository which still being ab
 While in your repository run:
 
 ```shell
-git remote add SwarmBaseCode https://github.com/BCLab-UNM/SwarmBaseCode-ROS.git''
+git remote add SwarmBaseCode https://github.com/BCLab-UNM/SwarmBaseCode-ROS.git
 ```
 
 Your repository is now able to fetch code from the SwarmBaseCode-ROS repository as well as from your team's repository.
