@@ -103,3 +103,15 @@ To get bug fixes and changes in the base code use the following command:
 ''git pull SwarmBaseCode''
 
 There have been a lot of changes in the code since Swarmathon II. If you try to pull the Swarmathon III code into a branch based on the Swarmathon II code you will have a lot of merge conflicts. You may find it easier to create a fresh branch for Swarmathon III and reimplement the functionality from previous years there.
+
+### 6. Changing the default password for your Swarmie account.
+
+As soon as possible change the password for the Swarmie account (that's the one that logged in automatically on boot). The default password is KSC-2018.
+
+To change you password from the shell type: 
+'''bash
+passwd
+'''
+
+And follow the prompts.
+'''
