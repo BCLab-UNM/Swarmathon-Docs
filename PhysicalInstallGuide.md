@@ -94,13 +94,17 @@ A convenient way customise the SwarmBaseCode-ROS repository which still being ab
 
 While in your repository run:
 
-''git remote add SwarmBaseCode https://github.com/BCLab-UNM/SwarmBaseCode-ROS.git''
+```shell
+git remote add SwarmBaseCode https://github.com/BCLab-UNM/SwarmBaseCode-ROS.git''
+```
 
 Your repository is now able to fetch code from the SwarmBaseCode-ROS repository as well as from your team's repository.
 
 To get bug fixes and changes in the base code use the following command:
 
-''git pull SwarmBaseCode''
+```shell
+git pull SwarmBaseCode
+```
 
 There have been a lot of changes in the code since Swarmathon II. If you try to pull the Swarmathon III code into a branch based on the Swarmathon II code you will have a lot of merge conflicts. You may find it easier to create a fresh branch for Swarmathon III and reimplement the functionality from previous years there.
 
