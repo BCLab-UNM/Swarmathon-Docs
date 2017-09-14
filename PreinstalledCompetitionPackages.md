@@ -15,4 +15,6 @@ ros-kinetic-joystick-drivers
 git
 qtcreator
 libcap2-bin
+ros-kinetic-grid-map
+
 
