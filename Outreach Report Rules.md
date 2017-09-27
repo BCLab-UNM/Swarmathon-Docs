@@ -1,6 +1,6 @@
 ### NASA Swarmathon Outreach Report Guidelines
 
-Both Physical and Virtual teams are required to submit an Outreach Report electronically via GitHub as a PDF by March 28, 2017 by midnight EST. The paper should be named **Outreach_Report_YourSchoolName_2017.pdf** and placed in a folder called **"reports"** in your Github repository.
+Both Physical and Virtual teams are required to submit an Outreach Report electronically as a PDF by March 15, 2018 by midnight EST. Instructions for uploading your report are available on the nasaswarmathon.com website. For Swarmathon III reports should *not* be uploaded to your github repository.
 
 Judges will score papers based on the quality, novelty and significance of the described outreach activity and plans laid for future outreach activities, according to the rubric below. The judges' decision is final.
 
