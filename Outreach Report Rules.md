@@ -1,4 +1,4 @@
-### Swarmathon III NASA Outreach Report Guidelines
+### NASA Swarmathon III Outreach Report Guidelines
 
 Both Physical and Virtual teams are required to submit an Outreach Report electronically as a PDF by March 15, 2018 by midnight EST. Instructions for uploading your report are available on the nasaswarmathon.com website. For Swarmathon III reports should *not* be uploaded to your github repository.
 
