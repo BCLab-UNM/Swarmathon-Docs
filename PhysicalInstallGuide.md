@@ -88,7 +88,7 @@ Robot wheels may become loose and disengage after repeated testing. Although the
 
 If you encounter any issues with your robots, please contact the Swarmathon team at [Info@NasaSwarmathon.com](Info@NasaSwarmathon.com), or post questions in the Hardware section of the [NASA Swarmathon Q&A Forum](http://nasaswarmathon.com/qa-forum/), and we’ll help you to diagnose and repair the problem.
 
-### 7. Setting up your team's repoitory.
+### 7. Setting up your team's repository.
 
 You should already have a repository under the BCLab organisation on GitHub. Please let us know right away if you do not have access or cand find your repository.
 
