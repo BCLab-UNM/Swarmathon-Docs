@@ -59,3 +59,5 @@ h. The replacement robot places the spare hygrometer down at the target location
 i. The replacement robot navigates to back to the base camp. 
 Mission complete.
 
+### Questions?
+If you have any questions please post on the Q&A Forum at http://nasaswarmathon.com/2018-qa-forum/?p=%3Fforum%3D642017
