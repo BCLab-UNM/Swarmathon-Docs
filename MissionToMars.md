@@ -1,5 +1,5 @@
-## Notice of Interest
-If you wish to enter the competition, please let us know by TBD The submission deadline is March 27th, 2018. This competition is open to all teams currently taking part in the Swarmathon III competition. There is no requirement that individual students participating in the Mission to Mars competition also contribute to the main Swarmathon competition or vica versa. However, the faculty mentor for students participating in the Mission to Mars competition must also mentor a Swarmathon III main competition team. Virtual and Physical teams are eligible to submit an entry for the Mission to Mars competition.
+## Entering
+The submission deadline is March 27th, 2018. This competition is open to all teams currently taking part in the Swarmathon III competition. There is no requirement that individual students participating in the Mission to Mars competition also contribute to the main Swarmathon competition or vica versa. However, the faculty mentor for students participating in the Mission to Mars competition must also mentor a Swarmathon III main competition team. Virtual and Physical teams are eligible to submit an entry for the Mission to Mars competition.
 
 ## Goals
 The goal of the NASA Swarmathon Mission to Mars sub-competition is to demonstrate a simulated autonomous robot mission in a Martian environment. The Mission to Mars competition is an additional opportunity for teams to show their work to NASA and to win prize money. The main Swarmathon competition is independent of the Mission to Mars competition.
