@@ -1,6 +1,6 @@
 ### NASA  Swarmathon III Technical Report Guidelines
 
-Both Physical and Virtual teams are required to submit a Technical Report electronically as a PDF by March 15, 2018 by midnight EST. Instructions for uploading your report are available on the nasaswarmathon.com website. For Swarmathon III reports should *not* be uploaded to your github repository.
+Both Physical and Virtual teams are required to submit a Technical Report electronically as a PDF by March 25, 2018 by midnight EST. Instructions for uploading your report are available on the nasaswarmathon.com website. For Swarmathon III reports should *not* be uploaded to your github repository.
 
 Judges will score papers based on the technical quality, novelty, significance, and clarity according to the rubric below. The judges' decision is final. The Physical team with the winning Technical Report will receive a team plaque and a $200 team scholarship. Second and third place winners will receive certificates.
 
