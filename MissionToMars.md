@@ -21,7 +21,7 @@ Your team's submission will be graded by NASA engineers at Kennedy Space Center.
 Each section of your submission will be graded on a 100-point scale, with 100 being the highest possible total:
 
    A. Mission Plan Text: describe a practical proposed task in detail. (25 points)  
-   B. Video: Artistic quality of the video and successful communication of the mission.  At a minimum it should include export of simulation.  Narration or subtitles explaining what is happening in the mission would enhance the video. (50 points)  
+   B. Video: Artistic quality of the video and successful communication of the mission.  At a minimum it should include an export of the simulation.  Narration or subtitles explaining what is happening in the mission would enhance the video. (50 points)  
    C. GitHub Code: The ability of your robots to carry out the mission. (25 points)  
 
 
