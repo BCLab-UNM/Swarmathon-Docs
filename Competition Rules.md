@@ -123,6 +123,14 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
 
-   - Teams may not modify the Arduino code.
+   - Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. We will provide a comma delimited file called KSC.cal in the root of the home directory, i.e. ~/KSC:cal. The calibration file will be in the following format:
+   
+   `min: { -N1, -N2, -N3 }  max: { +N4, +N5, +N6 }` 
+   
+   Where N1 through N6 are natural numbers. This is the same format the calibration code produces. 
+   
+   Before the competition the UNM tech team will calibrate the rovers and populate the KSC.cal file with the offset values.
+   
+   Teams loading custom arduino code must notify us by March 20th, 2018 and modify the rover status message with a preceeding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.
 
     - Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
