@@ -131,6 +131,8 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
    
    Before the competition the UNM tech team will calibrate the rovers and populate the KSC.cal file with the offset values.
    
-   **Teams loading custom arduino code must notify us by March 20th, 2018 and modify the rover status message with a preceeding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.**
+  Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Ardiono code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.** 
+   
+   ** The rover status message must be modified to contain with a preceeding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.**
 
 - Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
