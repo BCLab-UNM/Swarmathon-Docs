@@ -136,7 +136,7 @@ We will provide a comma delimited file called KSC.cal to store the calibration v
    We will also provide extended calibration data, this is at the request of teams who are writing custom Arduino code. This extended data will be stored in `~/KSC_extended_calibration.csv` and has the following format:
    
    `mag.X,mag.Y,mag.Z,accel.X,accel.Y,accel.Z,temperature (high
-byte),temperature (low byte),LSM303 CTRL5 register value`
+byte),temperature (low byte)`
 
    
   Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Ardiono code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.** 
