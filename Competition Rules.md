@@ -123,7 +123,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
 
-- Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/Swarmathon_Arduino/`*, i.e. `Swarmathon-TeamAbbrev/arduino/Swarmathon_Arduino/` where Swarmathon-TeamAbbrev is your repository name. 
+- Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/swarmie_control/`*, i.e. `Swarmathon-TeamAbbrev/arduino/swarmie_control/` where Swarmathon-TeamAbbrev is your repository name. 
 
 We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. ~/KSC:cal. The calibration file will be in the following format:
    
