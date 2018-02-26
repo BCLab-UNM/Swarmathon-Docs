@@ -98,7 +98,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    
 
-    - Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the SwarmBaseCode-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code.
+    - Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the SwarmBaseCode-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code. Teams that are submitting custom Arduino code should prepend a + symbol to their status message. This allows the arena technical team to pay special attention to uploading the custom Ardunio code and restoring the base Ardunio code after the competiton run.
 
  
 
@@ -123,13 +123,21 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
 
-- Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. We will provide a comma delimited file called KSC.cal in the root of the home directory, i.e. ~/KSC:cal. The calibration file will be in the following format:
+- Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/src/`* and : i.e. `Swarmathon-TeamAbbrev/arduino/src/` where Swarmathon-TeamAbbrev is your repository name. 
+
+We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. ~/KSC:cal. The calibration file will be in the following format:
    
    `min: { -N1, -N2, -N3 }  max: { +N4, +N5, +N6 }` 
    
    Where N1 through N6 are natural numbers. This is the same format the calibration code produces. 
    
    Before the competition the UNM tech team will calibrate the rovers and populate the KSC.cal file with the offset values.
+   
+   We will also provide extended calibration data, this is at the request of teams who are writing custom Arduino code. This extended data will be stored in `~/KSC_extended_calibration.csv` and has the following format:
+   
+   `mag.X,mag.Y,mag.Z,accel.X,accel.Y,accel.Z,temperature (high
+byte),temperature (low byte),LSM303 CTRL5 register value`
+
    
   Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Ardiono code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.** 
    
