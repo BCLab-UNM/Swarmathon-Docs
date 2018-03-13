@@ -34,7 +34,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
  
 
-        - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 hour.
+        - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
 
        
 
