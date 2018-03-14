@@ -102,7 +102,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
  
 
-    - In the Physical Competition, robots that become stuck due to any fault of the arena, or robots that collide with one another and become stuck, will be separated and placed nearby their original locations by line judges. The line judge will decide whether the arena is at fault. No intervention will occur in the Virtual competition.
+    - In the Physical Competition, robots that become stuck due to any fault of the arena, or robots that collide with one another and become stuck, will be separated and placed nearby their original locations by arena judges. The arena judge will decide whether the arena is at fault. No intervention will occur in the Virtual competition.
 
  
 
