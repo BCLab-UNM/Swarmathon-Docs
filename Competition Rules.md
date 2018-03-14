@@ -109,6 +109,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
     - Each robot must operate at a safe speed in order to avoid damage from collisions with the walls and with other robots. The maximum allowable velocity for the physical robots is 1.0 m/s linear and 1.0 m/s angular; the maximum velocity for the simulated robots is 1.5 m/s linear and 8.0 cm/s angular (this cap includes the simulated scaling factor). At the discretion of Physical Competition judges, robots that repeatedly crash into walls, obstacles, or each other at high speeds will be removed from the arena for the remainder of the period.
 
    
+    - In the event of a robot failing to operate correctly due to hardware or software malfunction outside the control of the teams the robot may be replaced with a spare. The decision to replace a robot lies with the arena tech in consultation with the head tech. Robots to be replaced have their motors swtched off, are removed from the arena, and shutdown. A spare rover is placed at one of the starting locations near the collection zone and the team's code is started via the onboard node launch script. Examples from previous years have included: motor hardware failure, gripper hardware failure and the ublox ROS package crashing. 
 
 - Breaking a tie
 
