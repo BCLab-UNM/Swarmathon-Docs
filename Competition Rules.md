@@ -6,7 +6,7 @@ Final rules will be available on April 8th, 2018.
 
  
 
-The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical.
+The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical, with the exception that teams in the virtual competition may not modify the contents of the simulation directory of the base code.
 
  
 
@@ -122,7 +122,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
  
 
-   - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
+   - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition. Additionally teams participating in the virtual compitition may not modify the contents of the simulation directory or the sbridge package.
 
 - Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/swarmie_control/`*, i.e. `Swarmathon-TeamAbbrev/arduino/swarmie_control/` where Swarmathon-TeamAbbrev is your repository name. 
 
