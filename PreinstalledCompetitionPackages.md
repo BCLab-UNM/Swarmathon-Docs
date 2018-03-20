@@ -18,5 +18,5 @@ libcap2-bin
 ros-kinetic-grid-map
 ros-kinetic-rosserial-python 
 ros-kinetic-rosserial-arduino
-
+ros-kinetic-usb-cam
 
