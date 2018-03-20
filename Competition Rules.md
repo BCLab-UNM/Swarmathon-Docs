@@ -6,7 +6,7 @@ Final rules will be available on April 8th, 2018.
 
 
 
-The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical.
+The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical, with the exception that teams in the virtual competition may not modify the contents of the simulation directory of the base code.
 
 
 
@@ -34,7 +34,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-        - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 hour.
+        - The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
 
 
 
@@ -101,23 +101,23 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
     - Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the SwarmBaseCode-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code. Teams that are submitting custom Arduino code should prepend a + symbol to their status message. This allows the arena technical team to pay special attention to uploading the custom Ardunio code and restoring the base Ardunio code after the competiton run.
 
 
-
     - Intervention
 
       - In the Physical Competition, robots that become stuck due to any fault of the arena, or robots that collide with one another and become stuck, will be moved one meter away by robot wranglers at the direction of arena judges. Fault of the arena includes, for example, robots high-centering on April cubes and cowcatchers becoming stuck under the collection zone. The arena judge will make the final decision as to whether the arena is at fault. Robots in an arena may be replaced if it is determined that a robot's hardware has failed. No intervention will occur in the Virtual competition.
 
         - Each time the robot is moved, the red emergency switch will be switched down to prevent the motors from turning and encoders detecting wheel motion.  Robots will not be moved abruptly to ensure that the IMU detects the motion correctly.
 
-        - Robots that get stuck on April Cubes, arena walls, or other robots often immediately return to the obstruction and get stuck again. If the same robot has gotten stuck on the same object(s) three times in a row, the robot will be moved one meter away and turned to face away from the object.
+        - Robots that get stuck on April Cubes, arena walls, or other robots often immediately return to the obstruction and get stuck again. If the same robot has gotten stuck on the same object(s) three times within a 1 minute period, the robot will be moved one meter away and turned to face away from the object. A recurrence of persistent collisions by a rover after having been oriented away from the obstacle may result in the rover's motors being switched off. This decision is at the discretion of the arena tech in consultation with the head tech. This is to avoid having the robot wranglers entirely occupied with preventing a rover from colliding repeatedly during the run.
 
       - If a robot fails because of a hardware malfunction, we will replace the robot during the run. These kinds of failures are sometimes as obvious as a wheel coming off, but it is often difficult to distinguish hardware and software failures. We will keep a close eye on all of the robots network status, node output/status, sensor outputs, and diagnostic outputs. If a robot is behaving very differently from the others, then we will investigate closely from the master laptop. The arena tech in consultation with the lead tech will determine whether it is appropriate to replace a robot.
 
         - If it is determined that a robot needs to be replaced, it will be pulled from the arena and a standby robot will be set in the center at the arena's start position. Each arena will have at least two standby robots. These will be turned on for the entire run but will not have code running. Once the replacement is set at the arena's starting position it will be initialized and your team's code will start to run. We will work trough this process as quickly as possible but it will take some time.
 
-        - Robots pulled from arenas for replacement will be taken to a repair trailer where the problem will be diagnosed and repaired. The robot will be documented and then returned as standby for its original arena.
+        - Robots pulled from arenas for replacement will be taken to a repair trailer where the problem will be diagnosed and repaired by the hardware tech. The robot will be documented and then returned as standby for its original arena. Examples from previous years have included: motor hardware failure, cowcatchers detaching, and gripper hardware failure. 
 
     - Each robot must operate at a safe speed in order to avoid damage from collisions with the walls and with other robots. The maximum allowable velocity for the physical robots is 1.0 m/s linear and 1.0 m/s angular; the maximum velocity for the simulated robots is 1.5 m/s linear and 8.0 cm/s angular (this cap includes the simulated scaling factor). At the discretion of Physical Competition judges, robots that repeatedly crash into walls, obstacles, or each other at high speeds will be removed from the arena for the remainder of the period.
-
+   
+    - In the event of a robot failing to operate correctly due to a software malfunction outside the control of the teams the robot may be replaced with a spare. The decision to replace a robot lies with the arena tech in consultation with the head tech. Robots to be replaced have their motors swtched off, are removed from the arena, and shutdown. A spare rover is placed at one of the starting locations near the collection zone and the team's code is started via the onboard node launch script. Examples from previous years include the Ublox GPS package crashing.
 
 
 - Breaking a tie
@@ -130,7 +130,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 - Modifying the SwarmBaseCode-ROS code base
 
 
-   - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
+   - Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition. Additionally teams participating in the virtual compitition may not modify the contents of the simulation directory or the sbridge package.
 
 - Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/swarmie_control/`*, i.e. `Swarmathon-TeamAbbrev/arduino/swarmie_control/` where Swarmathon-TeamAbbrev is your repository name.
 
