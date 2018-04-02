@@ -53,15 +53,19 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
     2.2. Each round's resource distribution will be predetermined and will not be disclosed to teams in advance of the competition. 
 
 
-    2.3. "Collecting a resource" is defined as delivering an AprilCube to the 1 x 1 meter square [collection zone](https://github.com/BCLab-UNM/SwarmBaseCode-ROS/blob/master/simulation/models/collection_disk/materials/textures/collection_disk.png) at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be touching the collection zone, or both overlapping the collection zone (in its airspace) **and** touching a cube which is counted as a scoring cube. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
+    2.3. "Collecting a resource" is defined as delivering an AprilCube to the 1 x 1 meter square [collection zone](https://github.com/BCLab-UNM/SwarmBaseCode-ROS/blob/master/simulation/models/collection_disk/materials/textures/collection_disk.png) at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be touching the collection zone, or both overlapping the collection zone (in its airspace) **and** touching a cube which is counted as a scoring cube. 
+    
+    2.4. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. 
+    
+    2.5. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
 
 
 
-    2.4. Scoring decisions of official competition judges are final.
+    2.6. Scoring decisions of official competition judges are final.
 
 
 
-    2.5. Resources will not be placed inside the collection zone, nor will they be placed within 50 cm of the arena wall.
+    2.7. Resources will not be placed inside the collection zone, nor will they be placed within 50 cm of the arena wall.
 
 
 
