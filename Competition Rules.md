@@ -50,11 +50,10 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    2.2. Resources will be randomly placed around the arena. Resources may be placed in a uniform distribution, such that the probability of encountering each resource is equal, or in a non-uniform distribution, in which some resources will be grouped together. The resource distribution will be selected at random before each round, meaning that neither the exact locations of resources, nor the number of clusters of resources, will not be disclosed to teams in advance of the competition.
+    2.2. Each round's resource distribution will be predetermined and will not be disclosed to teams in advance of the competition. 
 
 
-
-    2.3. "Collecting a resource" is defined as delivering an AprilCube to the 1 x 1 meter square [collection zone](https://github.com/BCLab-UNM/Swarmathon-ROS/blob/master/simulation/models/collection_disk/materials/textures/collection_disk.pdf) at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be touching the collection zone, or both overlapping the collection zone (in its airspace) **and** touching a cube which is counted as a scoring cube. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
+    2.3. "Collecting a resource" is defined as delivering an AprilCube to the 1 x 1 meter square [collection zone](https://github.com/BCLab-UNM/SwarmBaseCode-ROS/blob/master/simulation/models/collection_disk/materials/textures/collection_disk.png) at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be touching the collection zone, or both overlapping the collection zone (in its airspace) **and** touching a cube which is counted as a scoring cube. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
 
 
 
