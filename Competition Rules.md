@@ -18,11 +18,11 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    - There will be three competition rounds: preliminary, semi-final, and final:
+    - There will be five competition rounds: two preliminary, one quarter-final, one semi-final, and one final:
 
 
 
-        - The preliminary rounds will require 3 robots to search an approximate 15 x 15 meter walled arena for a maximum of 256 resources over two periods of 20 minutes each. The top eight teams whose robots find and collect the most resources during the two preliminary rounds will move on to the semi-final round.
+        - The preliminary rounds will require 3 robots to search an approximate 15 x 15 meter walled arena for a maximum of 256 resources over two periods of 20 minutes each. The top eight teams whose robots find and collect the most resources during the two preliminary rounds will move on to the quarter-final round.
 
 
 
