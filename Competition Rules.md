@@ -141,7 +141,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 8. Calibration Values
 
-   8.1. We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. ~/KSC:cal. The calibration file will be in the following format:
+   8.1. We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. `~/KSC.cal`. The calibration file will be in the following format:
 
    `min: { -N1, -N2, -N3 }  max: { +N4, +N5, +N6 }` 
 
