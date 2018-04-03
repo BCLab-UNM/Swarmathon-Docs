@@ -152,9 +152,9 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    `min: { -N1, -N2, -N3 }  max: { +N4, +N5, +N6 }` 
 
-   Where N1 through N6 are natural numbers. This is the same format the calibration code produces.
+   Where N1 through N6 are natural numbers. This is the same format the calibration code produces.  
 
-   Before the competition the UNM tech team will calibrate the rovers and populate the KSC.cal file with the offset values.
+   Before the competition the UNM tech team will calibrate the rovers and populate the KSC.cal file with the offset values.  
 
    We will also provide extended calibration data, this is at the request of teams who are writing custom Arduino code. This extended data will be stored in `~/KSC_extended_calibration.csv` and has the following format:
 
@@ -165,6 +165,8 @@ byte),temperature (low byte)`
 
 10. Head judge discretion
 
-  10.1. The head judge may disqualify a team at any point during the competition at their discretion.
-  10.2. The head judge may modify these rules due to weather events or unforseen circumstances.
-  10.3. Competition rounds may be re-run at the discretion of the head judge. 
+   10.1. The head judge may disqualify a team at any point during the competition at their discretion.
+  
+   10.2. The head judge may modify these rules due to weather events or unforseen circumstances.
+  
+   10.3. Competition rounds may be re-run at the discretion of the head judge. 
