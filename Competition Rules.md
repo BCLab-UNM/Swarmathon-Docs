@@ -165,8 +165,6 @@ byte),temperature (low byte)`
 
 10. Head judge discretion
 
-   10.1. The head judge may disqualify a team at any point during the competition at their discretion.
-
-   10.2. The head judge may modify these rules due to weather events or unforseen circumstances.
-
-   10.3. Competition rounds may be re-run at the discretion of the head judge. 
+  10.1. The head judge may disqualify a team at any point during the competition at their discretion.
+  10.2. The head judge may modify these rules due to weather events or unforseen circumstances.
+  10.3. Competition rounds may be re-run at the discretion of the head judge. 
