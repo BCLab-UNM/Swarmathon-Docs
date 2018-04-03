@@ -128,9 +128,9 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 6. Breaking a tie
 
-     6.1. In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the quarter-final round, 2nd place at the end of the semi-final round, or for the winner at the end of any of the final rounds, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins.
-
-
+     6.1. In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the quarter-final round, 2nd place at the end of the semi-final round, or for the winner at the end of any of the final rounds, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins. If no team scores within 10 minutes in the sudden death phase neither team will move forward. 
+     
+     6.2. The head judge will make the final decision on resolving tie breakers.
 
 
 7. Modifying the SwarmBaseCode-ROS code base
@@ -161,3 +161,4 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
    `mag.X,mag.Y,mag.Z,accel.X,accel.Y,accel.Z,temperature (high
 byte),temperature (low byte)`
 
+9. All physical and virtual teams are required to submit tech and outreach reports. Failure to submit a report will mean your team will not be ranked in the competition, and will be ineligible to advance past the preliminary rounds.
