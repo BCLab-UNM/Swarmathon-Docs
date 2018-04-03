@@ -163,6 +163,10 @@ byte),temperature (low byte)`
 
 9. All physical and virtual teams are required to submit tech and outreach reports. Failure to submit a report will mean your team will not be ranked in the competition, and will be ineligible to advance past the preliminary rounds.
 
-10. The head judge may disqualify a team at any point during the competition at their discretion.
+10. Head judge discretion
 
-11. The head judge may modify these rules due to weather events or unforseen circumstances.
+   10.1. The head judge may disqualify a team at any point during the competition at their discretion.
+
+   10.2. The head judge may modify these rules due to weather events or unforseen circumstances.
+
+   10.3. Competition rounds may be re-run at the discretion of the head judge. 
