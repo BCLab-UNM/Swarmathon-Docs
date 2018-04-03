@@ -146,9 +146,19 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    7.5. Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
 
-8. Calibration Values
+8. All physical and virtual teams are required to submit tech and outreach reports. Failure to submit a report will mean your team will not be ranked in the competition, and will be ineligible to advance past the preliminary rounds.
 
-   8.1. We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. `~/KSC.cal`. The calibration file will be in the following format:
+9. Head judge discretion
+
+   9.1. The head judge may disqualify a team at any point during the competition at their discretion.
+  
+   9.2. The head judge may modify these rules due to weather events or unforseen circumstances.
+  
+   9.3. Competition rounds may be re-run at the discretion of the head judge. 
+
+10. Calibration Values
+
+   We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. `~/KSC.cal`. The calibration file will be in the following format:
 
    `min: { -N1, -N2, -N3 }  max: { +N4, +N5, +N6 }` 
 
@@ -160,13 +170,3 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    `mag.X,mag.Y,mag.Z,accel.X,accel.Y,accel.Z,temperature (high
 byte),temperature (low byte)`
-
-9. All physical and virtual teams are required to submit tech and outreach reports. Failure to submit a report will mean your team will not be ranked in the competition, and will be ineligible to advance past the preliminary rounds.
-
-10. Head judge discretion
-
-   10.1. The head judge may disqualify a team at any point during the competition at their discretion.
-  
-   10.2. The head judge may modify these rules due to weather events or unforseen circumstances.
-  
-   10.3. Competition rounds may be re-run at the discretion of the head judge. 
