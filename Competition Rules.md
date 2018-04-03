@@ -12,7 +12,7 @@ The goal of NASA Swarmathon competition is to program a swarm of robots to searc
 
 New in Swarmathon III is the addition of obstacles. Teams will need to program their robots to navigate around obstructions in the arena. The surface of Mars is varied, and there are a variety of naturally occurring obstacles that robots need to be able to circumvent.
 
-
+0. Please suggest modifications to these rules by creating a GitHub pull request.
 
 1. Tournament structure
 
