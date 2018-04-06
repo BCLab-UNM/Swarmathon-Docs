@@ -81,7 +81,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-   3.3. If robot-robot communication is required, all communication must be done via ROS topics and the ROS master. Robots will not be aware of each other's hostnames or IP addresses, but rather only the hostname and IP of the ROS master.
+   3.3. If robot-robot communication is required, all communication must be done via ROS topics and the ROS master. Robots will not be aware of each other's hostnames or IP addresses.
 
 
 4. During each round
