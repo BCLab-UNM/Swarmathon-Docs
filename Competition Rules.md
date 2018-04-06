@@ -34,7 +34,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-      1.1.4. The final rounds will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
+      1.1.4. The quater-finals, semi-finals, and finals will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
 
 
 
@@ -128,7 +128,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 6. Breaking a tie
 
-     6.1. In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the quarter-final round, 2nd place at the end of the semi-final round, or for the winner at the end of any of the final rounds, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins. If no team scores within 10 minutes in the sudden death phase neither team will move forward. 
+     6.1. In the event of a tie for 8th place at the end of the preliminary round, for 4th place at the end of the quarter-final round, 2nd place at the end of the semi-final round, or for the winner of the final round, the tied teams will compete head-to-head during a special tie breaker match. For this match, each team's robots and resources will be reset within their respective arenas. The team whose robots find and collect the most resources in 10 minutes will move on to the next round. If teams are still tied at the conclusion of the overtime match, the match will continue in a "sudden death" form, where the first team to score wins. If no team scores within 10 minutes in the sudden death phase neither team will move forward. 
      
      6.2. The head judge will make the final decision on resolving tie breakers.
 
