@@ -65,7 +65,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    2.7. Resources will not be placed inside the collection zone, nor will they be placed within 50 cm of the arena wall.
+    2.7. The initial placement of target cubes will not be inside the collection zone, nor will they be placed within 50 cm of the arena wall.
 
 
 
