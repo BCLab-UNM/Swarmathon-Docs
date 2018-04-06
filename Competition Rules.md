@@ -107,7 +107,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
      5.1. In the Physical Competition, robots that become stuck due to any fault of the arena, or robots that collide with one another and become stuck, will be moved one meter away by robot wranglers at the direction of arena judges. Fault of the arena includes, for example, robots high-centering on April cubes and cowcatchers becoming stuck under the collection zone. The arena judge will make the final decision as to whether the arena is at fault. Robots in an arena may be replaced if it is determined that a robot's hardware has failed. No intervention will occur in the Virtual competition.
      
-     5.2. If a robot is stuck on April Cubes for 30 seconds, the robot will be moved approximately one meter away and have its heading maintained.
+     5.2. If a robot is stuck on April Cubes for more than 30 seconds, the robot will be moved approximately one meter away and have its heading maintained.
 
      5.3. Robots that get stuck on arena walls or other robots will be moved approximately one meter away and turned to face away from the object. 
      
