@@ -88,7 +88,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    4.1. Each team’s code will be uploaded to the robots the competition. We will use the **master** branch in each repository.
+    4.1. Each team’s code will be uploaded to the robots before the competition. We will use the **master** branch in each repository.
 
 
 
