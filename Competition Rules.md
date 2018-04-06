@@ -92,7 +92,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    4.2. At the beginning of each round, each team’s robots will be placed **roughly** 50 cm from the edge of the collection zone and **roughly** equidistant from one another, with each robot facing in toward the center of the collection zone, then the robots will be turned on. Teams should **not** expect any robot to be placed in any specific position, nor should they expect the arena itself to be oriented in any specific direction.
+    4.2. At the beginning of each round, each team’s robots will be placed **roughly** 50 cm from the edge of the collection znoe with each robot facing in toward the center of the collection zone. Teams should **not** expect a particular placement of robots about the collection zone other than their orientation towards the collection zone, nor should they expect the arena itself to be oriented in any specific direction. 
 
 
 
