@@ -38,7 +38,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    1.2. Refer to the "Breaking a tie" subsection near the bottom of this document for rules in the case of a tie score during a given round. Note that the exact number and spatial distribution of resources in each round will not be revealed in advance of the competition.
+    1.2. Refer to the "Breaking a tie" subsection near the bottom of this document for rules in the case of a tie score during a given round. 
 
 
 
