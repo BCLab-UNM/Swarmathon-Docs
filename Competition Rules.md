@@ -1,11 +1,6 @@
 ### Swarmathon III (2018) Competition Rules
 
 
-
-Final rules will be available on April 8th, 2018.
-
-
-
 The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical, with the exception that teams in the virtual competition may not modify the contents of the simulation directory of the base code.
 
 
