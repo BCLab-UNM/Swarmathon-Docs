@@ -34,7 +34,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-      1.1.4. The quater-finals, semi-finals, and finals will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
+      1.1.4. The quarter-finals, semi-finals, and finals will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
 
 
 
@@ -142,7 +142,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
    
    7.3. Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Ardiono code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.**
 
-   7.4. **The rover status message must be modified to contain with a preceeding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.**
+   7.4. **The rover status message must be modified to contain with a preceding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.**
 
    7.5. Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
 
