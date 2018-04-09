@@ -160,7 +160,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    10.1. Obstacles may be placed anywhere in the arena. There may be any number of obstacles.
 
-   10.2. The obstacle size and shape will be the same as those modeled in the Gaebo simulations provided to teams.
+   10.2. The obstacle size and shape will be the same as those modeled in the Gazebo simulations provided to teams.
 
    10.3. The placement and number of obstacles will not be communicated to teams before the competition.
 
