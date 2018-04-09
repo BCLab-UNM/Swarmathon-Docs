@@ -140,7 +140,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    7.2. Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/swarmie_control/`*, i.e. `Swarmathon-TeamAbbrev/arduino/swarmie_control/` where Swarmathon-TeamAbbrev is your repository name.
    
-   7.3. Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Ardiono code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.**
+   7.3. Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Arduino code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.**
 
    7.4. **The rover status message must be modified to contain with a preceding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.**
 
