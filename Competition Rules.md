@@ -136,7 +136,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 7. Modifying the SwarmBaseCode-ROS code base
 
 
-   7.1. Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition. Additionally teams participating in the virtual compitition may not modify the contents of the simulation directory or the sbridge package.
+   7.1. Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition. Additionally teams participating in the virtual competition may not modify the contents of the simulation directory or the sbridge package.
 
    7.2. Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/swarmie_control/`*, i.e. `Swarmathon-TeamAbbrev/arduino/swarmie_control/` where Swarmathon-TeamAbbrev is your repository name.
    
@@ -152,7 +152,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
    9.1. The head judge may disqualify a team at any point during the competition at their discretion.
   
-   9.2. The head judge may modify these rules due to weather events or unforseen circumstances.
+   9.2. The head judge may modify these rules due to weather events or unforeseen circumstances.
   
    9.3. Competition rounds may be re-run at the discretion of the head judge. 
 
