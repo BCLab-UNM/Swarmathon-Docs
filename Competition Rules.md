@@ -100,7 +100,7 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
 
-    4.4. Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the SwarmBaseCode-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code. Teams that are submitting custom Arduino code should prepend a + symbol to their status message. This allows the arena technical team to pay special attention to uploading the custom Ardunio code and restoring the base Ardunio code after the competiton run.
+    4.4. Each robot must publish a string on the `/robotName/status` topic. This string (set to `online` by default in the SwarmBaseCode-ROS code base) should uniquely identify each team so that competition staff can ensure that the correct code is being run. For example, if a UNM team were to compete in the competition, they might publish the string `UNM: Go Lobos!` on the `/robotName/status` topic in order to uniquely identify their code. Teams that are submitting custom Arduino code should prepend a + symbol to their status message. This allows the arena technical team to pay special attention to uploading the custom Ardunio code and restoring the base Arduino code after the competition run.
 
 
 5. Intervention
