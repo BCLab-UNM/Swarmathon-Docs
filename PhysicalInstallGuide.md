@@ -112,7 +112,7 @@ There have been a lot of changes in the code since Swarmathon II. If you try to 
 
 ### 8. Changing the default password for your Swarmie account.
 
-As soon as possible change the password for the Swarmie account (that's the one that logged in automatically on boot). The default password is KSC-2018.
+As soon as possible change the password for the Swarmie account (that's the one that logged in automatically on boot). The default password is `Swarmathon4`.
 
 To change you password from the shell type: 
 ```shell
