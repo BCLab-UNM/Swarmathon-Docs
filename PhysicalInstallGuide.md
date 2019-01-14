@@ -28,11 +28,11 @@ If you need to restore your swarmie to its initial software configuration in the
 
 1. Your robot's hostname should be changed so that each robot will be uniquely identified on your LAN. To change your hostname, open a **Terminal** window and enter ```sudo nano /etc/hostname```. Enter the password you set during the OS installation process when prompted.
 
-2. This file should contain one line with the word "ubuntu". Delete "ubuntu" and replace it with your chosen hostname. Any hostname composed of alphanumeric characters will work; be sure to remember your hostname for later use. Use <kbd>Ctrl</kbd> + <kbd>x</kbd> to save your change and exit the editor.
+2. This file should contain one line with the word "myswarmie1". Delete "myswarmie1" and replace it with your chosen hostname. Any hostname composed of alphanumeric characters will work; be sure to remember your hostname for later use. Use <kbd>Ctrl</kbd> + <kbd>x</kbd> to save your change and exit the editor.
 
 3. From the Bash prompt, enter ```sudo nano /etc/hosts```.
 
-4. The second line of the **hosts** file should read ```127.0.1.1   ubuntu```. Delete "ubuntu" and replace it with the hostname you chose in step 2.
+4. The second line of the **hosts** file should read ```127.0.1.1   myswarmie1```. Delete "myswarmie1" and replace it with the hostname you chose in step 2.
 
 5. At this point, you should also add to the **hosts** file the IP addresses and hostnames of any other machines on your network (including other robots) that you plan to run Swarmathon-ROS on. For example, you would add a machine named "alpha" with an IP address of "192.168.1.2" by inserting ```192.168.1.2   alpha``` at a new line in the **hosts** file.
 
@@ -70,7 +70,7 @@ Your robot is now ready for you to use! Please repeat this process for all 3 of 
 
 ### 4. Swarmie IMU Calibration
 
-To work well your Swarmie' IMU sensor must be calibrated for your particular location. A [video guide](https://youtu.be/pL4x7UcuZ3A) to calibrating your rover is available. (Note that if you setup your rover using the USB image install you will not need to download the software packages mentioned in that video. Dialup group membership will have been preconfigured as well.)
+We make the assumption you are using an installation of Ubuntu from our provided swarmie image. To calibrate the robots use the script `~/SwarmBaseCode-ROS/misc/run_calibration.sh` and follow the instructions in your terminal. [calibration demonstration](https://youtu.be/78gHGePd7uI)
 
 ### 5. Re-Uploading Swarmathon-Arduino Code
 
