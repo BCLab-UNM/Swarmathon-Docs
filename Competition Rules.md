@@ -1,39 +1,40 @@
-### Swarmathon III (2018) Competition Rules
+### Swarmathon IV (2019) Competition Rules
 
 
-The goal of NASA Swarmathon competition is to program a swarm of robots to search a square arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at NASA Kennedy Space Center. The Physical and Virtual competition rules are identical, with the exception that teams in the virtual competition may not modify the contents of the simulation directory of the base code.
+The goal of the NASA Swarmathon competition is to program a swarm of robots to search an arena to find and collect as many resources as possible in a fixed period of time. The competition rules are described below. Note that the number of robots, the dimensions of the arena, and the length of time of each round are best estimates at this time, but may change before the final competition due to logistical considerations at the University of New Mexico. All teams must compete in simulation. The top teams from the virtual round will advance to the physical competition.
 
 
+Teams must run an identical search algorithm in both simulation and physical robots. Teams may parameterize their algorithms, and they may also modify their treatment of sensor input to account for the reality gap. They may not modify the contents of the simulation directory of the base code; the virtual round of the competition will be run with the latest version of the SwarmBaseCode simulation.
 
-New in Swarmathon III is the addition of obstacles. Teams will need to program their robots to navigate around obstructions in the arena. The surface of Mars is varied, and there are a variety of naturally occurring obstacles that robots need to be able to circumvent.
+
+Teams will need to program their robots to navigate around obstructions in the arena. The surface of Mars is varied, and there are a variety of naturally occurring obstacles that robots need to be able to circumvent.
+
 
 0. Please suggest modifications to these rules by creating a GitHub pull request.
+
 
 1. Tournament structure
 
 
-
-   1.1. There will be five competition rounds: two preliminary, one quarter-final, one semi-final, and one final.
-
+      1.0. All rounds will be run with six robots.
 
 
-      1.1.1. The preliminary rounds will require 3 robots to search an approximate 15 x 15 meter walled arena for a maximum of 256 resources in each 20-minute preliminary round. A minimum of eight teams whose robots find and collect the most resources during the two preliminary rounds will move on to the quarter-final round.
+      1.1. A team's score for each round will be the total collected out of two runs.
 
 
-
-      1.1.2. The quarter-final round will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes. The top four teams whose robots find and collect the most resources during the quarter-final round will move on to the semi-final round.   
-
-
-
-      1.1.3. The semi-final round will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes. The top two teams whose robots find and collect the most resources during the semi-final round will move on to the final round.
+      1.2. All teams will begin the competition by participating in the virtual round.
+      
+      
+      1.3. The top eight teams from the virtual round will advance to the physical quarter finals.
 
 
-
-      1.1.4. The quarter-finals, semi-finals, and finals will require 6 robots to search an approximate 22 x 22 meter walled arena for a maximum of 256 resources over a period of 40 minutes.
-
+      1.4. The top four teams from the physical quarter finals will advance to the physical semi finals.
 
 
-    1.2. Refer to the "Breaking a tie" subsection near the bottom of this document for rules in the case of a tie score during a given round. 
+      1.5. The top two teams from the physical semi finals will advance to the physical finals.
+
+
+      1.6. Refer to the "Breaking a tie" subsection near the bottom of this document for rules in the case of a tie score during a given round. 
 
 
 
@@ -77,6 +78,8 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 
 
    3.3. If robot-robot communication is required, all communication must be done via ROS topics and the ROS master. Robots will not be aware of each other's hostnames or IP addresses.
+   
+   
 
 
 4. During each round
@@ -131,35 +134,37 @@ New in Swarmathon III is the addition of obstacles. Teams will need to program t
 7. Modifying the SwarmBaseCode-ROS code base
 
 
-   7.1. Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots, **with the exception** of `/src/rqt_rover_gui`, which should **not** be modified. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition. Additionally teams participating in the virtual competition may not modify the contents of the simulation directory or the sbridge package.
+   7.1. Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots. If you modify the GUI code and the GUI crashes during a run, we will **NOT** restart the run. However, if you have **NOT** modified the code then we will restart it. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
+
+If you modify the GUI code and the GUI crashes during a run, we will NOT restart the run. However, if you have NOT modified the code then we will restart it.
 
    7.2. Teams may modify the Arduino code. Loading the Arduino code must be fully automatic and triggered from the `/misc/rover_onboard_node_launch.sh` script. *Arduino code must be stored in a subdirectory of the teams repository called `arduino/swarmie_control/`*, i.e. `Swarmathon-TeamAbbrev/arduino/swarmie_control/` where Swarmathon-TeamAbbrev is your repository name.
    
-   7.3. Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Arduino code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by Feb 10th, 2018.**
+   7.3. Because custom Arduino code requires extra logistics at the competition we need to know which teams will have modified Arduino code well before the competition. **Teams planning to modify the Arduino code must notify us at info@nasaswarmathon.com by March 10th, 2019.**
 
    7.4. **The rover status message must be modified to contain with a preceding "+" symbol. We will reload the stock arduino code after a run where custom arduino code was used.**
 
-   7.5. Teams participating in the Virtual competition are also allowed to modify any parts of the code base, including adding or deleting ROS packages, **with the exception** of `/simulation`, `/src/rqt_rover_gui`, and `/src/gazebo_plugins`, which **may not** be modified.
+   7.5. Teams may not modify the contents of `/src/gazebo_plugins`.
+   
 
-8. All physical and virtual teams are required to submit tech and outreach reports. Failure to submit a report will mean your team will not be ranked in the competition, and will be ineligible to advance past the preliminary rounds.
 
-9. Head judge discretion
+8. Head judge discretion
 
-   9.1. The head judge may disqualify a team at any point during the competition at their discretion.
+   8.1. The head judge may disqualify a team at any point during the competition at their discretion.
   
-   9.2. The head judge may modify these rules due to weather events or unforeseen circumstances.
+   8.2. The head judge may modify these rules due to weather events or unforeseen circumstances.
   
-   9.3. Competition rounds may be re-run at the discretion of the head judge. 
+   8.3. Competition rounds may be re-run at the discretion of the head judge. 
 
-10. Obstacles
+9. Obstacles
 
-   10.1. Obstacles may be placed anywhere in the arena. There may be any number of obstacles.
+   9.1. Obstacles may be placed anywhere in the arena. There may be any number of obstacles.
 
-   10.2. The obstacle size and shape will be the same as those modeled in the Gazebo simulations provided to teams.
+   9.2. The obstacle size and shape will be the same as those modeled in the Gazebo simulations provided to teams.
 
-   10.3. The placement and number of obstacles will not be communicated to teams before the competition.
+   9.3. The placement and number of obstacles will not be communicated to teams before the competition.
 
-11. Calibration Values
+10. Calibration Values
 
    We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. `~/KSC.cal`. The calibration file will be in the following format:
 
