@@ -77,7 +77,7 @@ Teams will need to program their robots to navigate around obstructions in the a
 
 
 
-   3.3. If robot-robot communication is required, all communication must be done via ROS topics and the ROS master. Robots will not be aware of each other's hostnames or IP addresses.
+   3.3. If robot-robot communication is required, all communication must be done via ROS topics. Teams should not rely on particular hostnames or IP addresses being assigned to the competition robots.
    
    
 
