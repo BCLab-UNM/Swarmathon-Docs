@@ -19,4 +19,9 @@ ros-kinetic-grid-map
 ros-kinetic-rosserial-python 
 ros-kinetic-rosserial-arduino
 ros-kinetic-usb-cam
-
+ros-kinetic-multimaster-msgs-fkie
+ros-kinetic-default-cfg-fkie
+ros-kinetic-master-discovery-fkie
+ros-kinetic-master-sync-fkie
+ros-kinetic-node-manager-fkie
+ros-kinetic-multimaster-fkie
