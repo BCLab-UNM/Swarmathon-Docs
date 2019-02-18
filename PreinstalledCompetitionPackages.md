@@ -19,4 +19,5 @@ ros-kinetic-grid-map
 ros-kinetic-rosserial-python 
 ros-kinetic-rosserial-arduino
 ros-kinetic-usb-cam
-
+ros-kinetic-rosbridge
+ros-kinetic-rosbridge-server
