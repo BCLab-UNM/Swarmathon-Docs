@@ -51,7 +51,7 @@ Teams will need to program their robots to navigate around obstructions in the a
 
     2.3. "Collecting a resource" is defined as delivering an AprilCube to the 1 x 1 meter square [collection zone](https://github.com/BCLab-UNM/SwarmBaseCode-ROS/blob/master/simulation/models/collection_disk/materials/textures/collection_disk.png) at the center of the arena. In order to receive credit for the collection at the end of the round, the AprilCube must be touching the collection zone, or both overlapping the collection zone (in its airspace) **and** touching a cube which is counted as a scoring cube. 
     
-    2.4. If resources that were previously delivered are accidentally pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. 
+    2.4. If resources that were previously delivered are pushed out of the collection zone by other robots during the round, those resources will no longer count toward the total resources collected by a team during a given round. 
     
     2.5. Scoring for each round will only occur at the end of the round, after all robot motion has been stopped.
 
@@ -77,7 +77,7 @@ Teams will need to program their robots to navigate around obstructions in the a
 
 
 
-   3.3. If robot-robot communication is required, all communication must be done via ROS topics and the ROS master. Robots will not be aware of each other's hostnames or IP addresses.
+   3.3. If robot-robot communication is required, all communication must be done via ROS topics. Teams should not rely on particular hostnames or IP addresses being assigned to the competition robots.
    
    
 
@@ -134,7 +134,7 @@ Teams will need to program their robots to navigate around obstructions in the a
 7. Modifying the SwarmBaseCode-ROS code base
 
 
-   7.1. Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages and adjusting the Gazebo model files to better replicate the capabilities of their physical robots. If you modify the GUI code and the GUI crashes during a run, we will **NOT** restart the run. However, if you have **NOT** modified the code then we will restart it. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
+   7.1. Teams participating in the Physical competition are encouraged to modify any parts of the SwarmBaseCode-ROS code base, including adding or deleting ROS packages to better replicate the capabilities of their physical robots. However changes to the simulation files and Gazebo Plugins may only be made if accepted by the UNM developers through a pull request to the base code. This ensures a level playing field for all teams. If you modify the GUI code and the GUI crashes during a run, we will **NOT** restart the run. However, if you have **NOT** modified the code then we will restart it. You may modify the `/misc/rover_onboard_node_launch.sh` startup script, but **do not** change the name of the script itself. All committed code that is pushed to a team's GitHub repository by the cutoff date will be pulled and run onboard robots during the Physical competition.
 
 If you modify the GUI code and the GUI crashes during a run, we will NOT restart the run. However, if you have NOT modified the code then we will restart it.
 
@@ -166,7 +166,7 @@ If you modify the GUI code and the GUI crashes during a run, we will NOT restart
 
 10. Calibration Values
 
-   We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at KSC in the root of the home directory, i.e. `~/KSC.cal`. The calibration file will be in the following format:
+   We will provide a comma delimited file called KSC.cal to store the calibration values we obtain at UNM in the root of the home directory, i.e. `~/KSC.cal`. The calibration file will be in the following format:
 
    `min: { -N1, -N2, -N3 }  max: { +N4, +N5, +N6 }` 
 
