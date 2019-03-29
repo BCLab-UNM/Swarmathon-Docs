@@ -35,6 +35,8 @@ Teams will need to program their robots to navigate around obstructions in the a
 
 
       1.6. Refer to the "Breaking a tie" subsection near the bottom of this document for rules in the case of a tie score during a given round. 
+      
+      1.7 All rounds will be 30 minutes.
 
 
 
