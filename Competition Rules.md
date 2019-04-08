@@ -19,7 +19,7 @@ Teams will need to program their robots to navigate around obstructions in the a
       1.0. All rounds will be run with six robots.
 
 
-      1.1. A team's score for each round will be the total collected out of two runs.
+      1.1. A team's score for each round will be the total collected out of two runs, except for the semi-final and final rounds which will be sudden death.
 
 
       1.2. All teams will begin the competition by participating in the virtual round.
